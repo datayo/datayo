@@ -1,0 +1,22 @@
+{
+  "nodes":[
+    {"name":"Fundamentals","group":1},
+    {"name":"Matrix","group":1},
+    {"name":"Data Frame & Serires","group":1},
+    {"name":"Regular Expression","group":1},
+
+    {"name":"Type","group":1},
+    {"name":"Supervised","group":1},
+    {"name":"Unsupervised","group":1},
+    {"name":"Reinforcement Leanring","group":1}
+  ],
+  "links":[
+    {"source":0,"target":1,"value":30},
+    {"source":1,"target":2,"value":30},
+    {"source":2,"target":3,"value":30},
+
+    {"source":4,"target":5,"value":30},
+    {"source":5,"target":6,"value":30},
+    {"source":6,"target":7,"value":30}
+  ]
+}
