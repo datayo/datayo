@@ -64,7 +64,8 @@ d3.json("data/data.json", function(error, graph) {
 
     node.on("mouseover", function(){
         d3.select(this)
-            .attr("r", 9);
+            .attr("r", 9)
+            .style("cursor", "pointer");
     });
 
     node.on("mouseleave", function(){
